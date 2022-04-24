@@ -1,0 +1,93 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+html{
+  width: 100%;
+  height: auto;
+}
+
+body{
+  width: 100%;
+  font-family: sans-serif;
+  font-size: 16px;
+}
+
+img{
+  width: 70px;
+}
+
+button{
+  background-color: red;
+  color: white;
+  border: none;
+  font-size: 0.9rem;
+  padding: 10px 1.3rem;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover{
+  background-color: rgb(209, 88, 88);
+}
+
+button:active{
+  background-color: rgb(190, 45, 45);
+}
+
+main{
+  max-width: 800px;
+  margin: 2rem auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.fields{
+  display: flex;
+  gap: 1rem;
+  font-size: 1.4rem;
+}
+
+.fields div input{
+  font-size: 1.2rem;
+  padding: 4px;
+}
+
+.cards{
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: 200px 150px 200px;
+  gap: 1.3rem;
+}
+
+.cards article{
+  height: 250px;
+  color: rgb(231, 164, 86);
+  background-color: rgb(27, 37, 34);
+  text-align: center;
+  padding: 10px;
+}
+
+article p,
+article img{
+  margin-bottom: 1rem;
+}
+
+article p{
+  height: 60px;
+}
+
+article.results{
+  background-color: white;
+  color: black;
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+
+.add{
+  grid-column: 3;
+}

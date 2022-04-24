@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Retando tú lógica</title>
+</head>
+<body>
+  <main>
+    <div class="fields">
+      <div>
+        <label>1er Numero</label>
+        <input type="text" inputmode="numeric" pattern="[0-9]*" placeholder="Número Positivo" id="numero1">
+      </div>
+      <div>
+        <label>2do Numero</label>
+        <input type="text" inputmode="numeric" pattern="[0-9]*" placeholder="Número Positivo" id="numero2">
+      </div>
+    </div>
+    <div class="cards">
+      <article class="smaller">
+        <p>Hallar el menor de dos números enteros positivos</p>
+        <img src="./menor numero.PNG" alt="menor">
+        <button id="smaller">Mostrar Resultado</button>
+      </article>
+      <article class="equals">
+        <p>Determinar si los números ingresados son iguales</p>
+        <img src="./numeros iguales.PNG" alt="iguales">
+        <button id="equals">Ver Resultado</button>
+      </article>
+      <article class="results">
+        <p></p>
+      </article>
+      <article class="interchange">
+        <p>Intercambiar los valores de los dos números</p>
+        <img src="./intercambiar.PNG" alt="intercambiar">
+        <button id="interchange">Ver Resultado</button>
+      </article>
+      <article class="add">
+        <p>Sumar los dos números</p>
+        <img src="./sumar.PNG" alt="sumar">
+        <button id="add">Ver Resultado</button>
+      </article>
+    </div>
+  </main>
+  <script src="./scripts.js"></script>
+</body>
+</html>
